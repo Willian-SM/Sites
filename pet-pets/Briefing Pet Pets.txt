@@ -1,0 +1,52 @@
+Briefing - Pet Pet
+
+Cronograma 10 dias - 04/01 à 14/01
+
+Páginas 
+	.Inicio
+	.Quem Somos
+	.Serviços
+	.Equipe
+	.Contato
+
+	.Estrutura pet pet
+
+//*******************************************//
+Cores
+	.Tons de Azul Claro
+		#87CEEB SKYBLUE
+		#87CEFA LIGHT SKY BLUE
+		#B0E0E6 POWDER BLUE
+		
+	.Tons de Azul Escuro
+		#1E90FF DOGDE BLUE
+		#00BFFF DEEP SKY BLUE
+		#00FFFF CYAN
+
+	.Cinza Escuro "Quase Preto" 
+		#696969 DIM GREY
+		#0F0F0F ONYX
+
+	.Tom de Preto
+		#111111
+
+	 
+//*******************************************//
+Orientações
+
+Cabeçalho
+	.Logo (Lado Esquerdo)
+	.Telefone - Endereço - Horário de Atendimento (Lado 	Direito)
+	.Branco
+
+Menu
+	.Fixo 100%
+	.Azul Escuro (Talvez um degradê em tons de azul)
+	.Itens do Menu (Cinza Escuro)
+
+Rodapé
+	.Cinza Escuro
+	.Fonte Branca
+	.Mapa do Site
+	.Telefone - Endereço - Horário de Atendimento
+	
