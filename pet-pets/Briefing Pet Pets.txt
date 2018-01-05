@@ -30,7 +30,16 @@ Cores
 	.Tom de Preto
 		#111111
 
-	 
+	.Verde
+		#8DC505
+
+//*******************************************//
+Fontes
+
+	Texto - Panton
+	Menu  - Panton Light
+	Rodapé - Panton Light	
+ 
 //*******************************************//
 Orientações
 
@@ -49,4 +58,13 @@ Rodapé
 	.Fonte Branca
 	.Mapa do Site
 	.Telefone - Endereço - Horário de Atendimento
+
+//*******************************************//
+Referências
+
+https://www.vetquality.com.br/hospital-veterinario-24h/
+http://zoovet.com.br/clinica-24h/?gclid=EAIaIQobChMIocWu4J6_2AIVCQaRCh1btAIGEAAYAiAAEgJdI_D_BwE
+http://veterinariavilamariana.com.br/
+http://petlandbr.com.br/
+
 	
