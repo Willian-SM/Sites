@@ -12,7 +12,7 @@ Páginas
 	.Estrutura pet pet
 
 //*******************************************//
-Cores
+Cores - Referência
 	.Tons de Azul Claro
 		#87CEEB SKYBLUE
 		#87CEFA LIGHT SKY BLUE
@@ -46,15 +46,15 @@ Orientações
 Cabeçalho
 	.Logo (Lado Esquerdo)
 	.Telefone - Endereço - Horário de Atendimento (Lado 	Direito)
-	.Branco
+	.BG Branco
 
 Menu
 	.Fixo 100%
-	.Azul Escuro (Talvez um degradê em tons de azul)
+	.BG Azul Escuro (Talvez um degradê em tons de azul)
 	.Itens do Menu (Cinza Escuro)
 
 Rodapé
-	.Cinza Escuro
+	.BG Cinza Escuro
 	.Fonte Branca
 	.Mapa do Site
 	.Telefone - Endereço - Horário de Atendimento

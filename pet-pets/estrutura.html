@@ -26,17 +26,15 @@
 
     <div class="container">
       <!--Cabeçalho-->
-      <div id="cabecalho" class="row">
+      <div class="row cabecalho">
         <div class="col-sm-8">
-          <img src="imgs/Logos/Logo pet.png" />
+          <h1>LOGO</h1>
         </div>
 
         <div class="col-sm-4">
-          <div class="infos-cabecalho">
-            <span class="glyphicon glyphicon-home"></span> &nbsp&nbsp Rua Pet &amp Pets 200 - Vila Pet <br />
-            <span class="glyphicon glyphicon-time"></span> &nbsp&nbsp24 horas <br />
-            <span class="glyphicon glyphicon-earphone"></span> &nbsp&nbsp(11) 1234-1234
-          </div>
+          <span class="glyphicon glyphicon-home font-glyph"></span> &nbsp&nbsp Rua Pet &amp Pets 200 - Vila Pet <br />
+          <span class="glyphicon glyphicon-time font-glyph"></span> &nbsp&nbsp24 horas <br />
+          <span class="glyphicon glyphicon-earphone font-glyph"></span> &nbsp&nbsp(11) 1234-1234
         </div>
       </div>
 
@@ -54,41 +52,26 @@
       <!--Slide-->
       <div id="slide" class="row">
         <div class="col-sm-12">
-          <h3>O melhor para seu Pet sempre pertinho de você, <br/>
-          agende uma visita.</h3>
+          <center>SLIDE</center>
         </div>    
       </div>
 
-
-      <!--Conteúdo - Container Imagens-->
+      <!--Conteúdo - Container-->
       <div class="row">
-        <div id="cont-padrao" class="col-sm-3 img-cont1"></div>
+        <div id="container1" class="col-sm-3">
 
-        <div class="col-sm-1"></div><!--Coluna em Branco-->
-
-        <div id="cont-padrao" class="col-sm-4 img-cont2"></div>
-
-        <div class="col-sm-1"></div><!--Coluna em Branco-->
-
-        <div id="cont-padrao" class="col-sm-3 img-cont3"></div>        
-      </div>
-
-      <!--Conteúdo - Container Botões-->
-      <div class="row">
-        <div class="col-sm-3 btn-cont">
-          <a href="servicos.html"><button class="btn btn-block btn-primary">Pet Saúdavel</button></a>
         </div>
 
         <div class="col-sm-1"></div><!--Coluna em Branco-->
 
-        <div class="col-sm-4 btn-cont">
-          <a href="estrutura-pets.html"><button class="btn btn-block btn-success">Agende uma consulta</button></a>
+        <div id="container2" class="col-sm-4">
+
         </div>
 
         <div class="col-sm-1"></div><!--Coluna em Branco-->
 
-        <div class="col-sm-3 btn-cont">
-          <a href="contato.html"><button class="btn btn-block btn-warning">Atendimento 24 Horas</button></a>
+        <div id="container3" class="col-sm-3">
+          
         </div>        
       </div>
 
@@ -108,77 +91,15 @@
 
       <!--Rodapé-->
       <div id="rodape" class="row">
-        <div class="col-sm-4" style="line-height: 35px">
-          <h2>Mapa do Site</h2>
-          <hr />
-          
-          <ul>
-            <li>Inicio</li>
-            <li>Quem Somos</li>
-              <ul>
-                <li>Estrutura Pet & Pets</li>
-              </ul>
-            <li>Serviços</li>
-              <ul>
-                <li>Cães</li>
-                <li>Felinos</li>
-                <li>Aves</li>
-                <li>Roedores</li>
-              </ul>
-            <li>Equipe</li>
-            <li>Contato</li>
-          </ul>
+        <div class="col-sm-4 endereco-rodape" >
+          <center>ESQUERDA</center>
         </div>
 
-        <div class="col-sm-4" style="line-height: 35px">
-          <h2>Informações de Contato</h2>
-          <hr />
-
-          <p><span class="glyphicon glyphicon-home"></span>&nbsp&nbspEndereço: Rua Pet &amp Pets 200 - Vila Pet</p>
-          <p><span class="glyphicon glyphicon-time"></span>&nbsp&nbspAtendimento: 24 Horas</p>
-          <p><span class="glyphicon glyphicon-earphone"></span>&nbsp&nbspContato: (11) 1234-1234</p>
+        <div class="col-sm-8 mapa-site">
+          <center>DIREITA</center>
         </div>
-
-        <div class="col-sm-4">
-          <h2>Envie uma Mensagem</h2>
-          <hr />
-
-          <form name="form-contato" action="contato.php" method="POST">
-            <div class="form-group">
-              <label for="nome">Nome: </label>
-              <input id="nome" type="text" class="form-control" required />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input id="email" type="email" class="form-control" required/>
-            </div>
-
-            <h4>Assunto:</h4>
-            
-              <select name="Assunto">
-                  <option value="consulta" selected>Consulta</option>
-                  <option value="duvida">Dúvida</option>
-                  <option value="sugestao">Sugestão</option>
-                  <option value="outros">Outros</option>  
-              </select> 
-            
-
-            <div class="form-group" style="margin-top: 15px;">
-              <textarea class="form-control" rows="5" placeholder="Digite sua mensagem aqui." required></textarea>
-            </div>
-
-            <button class="btn btn-block btn-success">Enviar</button>
-          </form>
-        </div><!--coluna da direita - FIM-->
-      </div><!--Rodapé - FIM -->
-
-      <div class="row">
-        <div id="copyright" class="col-sm-12">
-              <a href="http://willianmessias.wixsite.com/projects"><h4>WS &copy2018 Codes (Long Night)</h4></a>
-        </div>        
       </div>
-    </div><!--Container - FIM-->
+    </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

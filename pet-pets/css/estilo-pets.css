@@ -1,5 +1,9 @@
 /*CONFIGURAÇÕES GERAIS*/
 
+body{
+	background: linear-gradient(to left, #ddd, #fff);
+}
+
 /*Links*/
 a{
 	color: #fff;
@@ -14,7 +18,7 @@ a:visited{
 }
 
 a:hover{
-	color: #FFc125; /*SkyBlue*/
+	color: yellow;
 }
 
 a:active{
@@ -31,19 +35,30 @@ a:active{
 #cabecalho{
 	font-family: "Panton Light", verdana;
 	font-size: 16px;
+	line-height: 25px;
+}
+
+#cabecalho img{
+	width: 200px;
+	height: 100px;
+}
+
+.infos-cabecalho{
+	margin-top: 15px;
+	float: right;
 }
 
 /**************************************************************/
-/*Menu*/
+/*Menu - Inicio*/
 #menu{
-
+	margin-top: 2px;
 	border-radius: 10px;
 	box-sizing: border-box;
 	height: 50px;
 	padding-top: 10px;
 
-	font-family: "Panton Light", verdana;
-	font-size: 21px;
+	font-family: "Panton", verdana;
+	font-size: 24px;
 	text-align: center;
 	word-spacing: 35px;
 	letter-spacing: 2px;
@@ -55,17 +70,23 @@ a:active{
 	word-spacing: normal;
 }
 /*Menu - FIM*/
-
 /**************************************************************/
 /*Slide*/
 #slide{ /*Temporario*/
+
+	box-sizing: border-box;
 	height: 300px;
 	margin-top: 1px;
+	padding: 25px;
 	border-radius: 4px;
 
-	background: blue;
+	background-image: url("../imgs/Slide/slide1.jpg");
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+
 	color: #fff;
-	text-align: center;
 }
 
 /**************************************************************/
@@ -83,51 +104,110 @@ a:active{
 }
 
 
-/*Container Infos TEMPORARIO*/
-#container1{
+/*Container Infos*/
+#cont-padrao{
 	margin-top: 60px;
 	box-sizing: border-box;
-	height: 150px;
+	height: 200px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	box-shadow: 3px 2px 5px gray;
 
-	background: blue;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
 }
 
-#container2{
-	margin-top: 60px;
-	box-sizing: border-box;
-	height: 150px;
-
-	background: green;
+.img-cont1{
+	background-image: url("../imgs/Containers/cont1.jpg");
 }
 
-#container3{
-	margin-top: 60px;
-	box-sizing: border-box;
-	height: 150px;
-
-	background: yellow;
+.img-cont2{
+	background-image: url("../imgs/containers/cont2.jpg");
 }
+
+.img-cont3{
+	background-image: url("../imgs/containers/cont3.png");
+}
+
+/*Botão - Inicio*/
+.btn-cont{
+	margin-top: 20px;
+}
+
+.btn-cont button{
+	font-family: "Panton Black", verdana;
+	font-size: 16px;
+}
+
+/*Botão - Fim*/
+
 /*Container Infos  -FIM*/
-
-
-
 /**************************************************************/
 /*Rodapé*/
 #rodape{
-	height: 200px;
 	margin-top: 20px;
+	margin-bottom: 7px;
+	padding-top: 20px;
 
+	font-family: "Panton Light", verdana;
+	font-size: 16px;
 	background: #333333;
 	color: #fff;
 }
 
-.mapa-site{
-	margin-top: 20px;
+#rodape h2{
+	margin-top: 5px;
+	margin-bottom: 0px;
+
 }
 
-.endereco-rodape{
-	margin-top: 20px;
+#rodape hr{
+	margin-top: 0px;
+}
+
+/*Formulário*/
+#rodape select{
+	width: 100px;
+	height: 25px;
+	color: #000;
+
+}
+
+#rodape option{
+	font-weight: 600;
+	color: #000;
+}
+/*Formulario - FIM*/
+
+/**************************************************************/
+/*CopyRight*/
+#copyright{
+	color: gray;
+	font-family: "Panton Light", verdana;
+	font-weight: bold;
+	text-align: center;
+}
+
+#copyright h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#copyright a:link{
+	color: gray;
+}
+
+#copyright a:visited{
+	color: gray;
+}
+
+#copyright a:hover{
+	color: gray;
+}
+
+#copyright a:active{
+	color: gray;
 }
 
 /**************************************************************/
-
