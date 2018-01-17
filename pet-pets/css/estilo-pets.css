@@ -11,6 +11,7 @@ a{
 
 a:link{
 	text-decoration: none;
+	color: #fff;
 }
 
 a:visited{
@@ -18,7 +19,7 @@ a:visited{
 }
 
 a:hover{
-	color: yellow;
+	color: gray;
 }
 
 a:active{
@@ -26,7 +27,27 @@ a:active{
 }
 /*Links - FIM*/
 
+h1{
+	font-family: "Panton Light", verdana;
+}
 
+p{
+	margin: 30px 30px;
+}
+
+/*Formulario*/
+select{
+	width: 100px;
+	height: 25px;
+	color: #000;
+
+}
+
+option{
+	font-weight: 600;
+	color: #000;
+}
+/*Formulario - FIM*/
 
 
 /**************************************************************/
@@ -50,13 +71,7 @@ a:active{
 
 /**************************************************************/
 /*Menu - Inicio*/
-#menu{
-	margin-top: 2px;
-	border-radius: 10px;
-	box-sizing: border-box;
-	height: 50px;
-	padding-top: 10px;
-
+.config-menu{
 	font-family: "Panton", verdana;
 	font-size: 24px;
 	text-align: center;
@@ -68,6 +83,16 @@ a:active{
 
 .palavras-juntas{
 	word-spacing: normal;
+}
+
+/*Btn p/ pequenas resoluções*/
+.estilo-btn-menu{
+	border: 1px solid #fff;
+	background: linear-gradient(to right, #d2d2d2, lightgray);
+}
+
+.estilo-icon-bar{
+	background: #fff;
 }
 /*Menu - FIM*/
 /**************************************************************/
@@ -100,7 +125,7 @@ a:active{
 }
 
 .p-conteudo{
-	margin: 30px 0px;
+	margin-top: 30px
 }
 
 
@@ -118,6 +143,29 @@ a:active{
 	-o-background-size: 100% 100%;
 }
 
+.cont-link{
+	display: block;
+	text-align: center;
+}
+
+/*Links diferenciados usado na pagina "QUEM_SOMOS.HTML"*/
+a.cont-link:link{
+	color: #000;
+}
+
+a.cont-link:visited{
+	color: #000;
+}
+
+a.cont-link:hover{
+	color: lightgray;
+}
+
+a.cont-link:active{
+	color: #000;
+}
+/*Links - FIM*/
+
 .img-cont1{
 	background-image: url("../imgs/Containers/cont1.jpg");
 }
@@ -130,14 +178,45 @@ a:active{
 	background-image: url("../imgs/containers/cont3.png");
 }
 
+/*Pagina Serviços e Servicos-Caes, Servicos-Gatos, etc...*/
+.servicos{
+	margin-top: 60px;
+}
+
+.servicos h1{
+	margin-top: 0px;
+}
+
+.img-cont4{
+	background-image: url("../imgs/pets/caes/dog-1.png");
+}
+
+.img-cont5{
+	background-image: url("../imgs/pets/gatos/gato-1.png");
+}
+
+.img-cont6{
+	background-image: url("../imgs/pets/roedores/roedor-1.png");
+}
+
+.img-cont7{
+	background-image: url("../imgs/pets/aves/ave-1.jpg");
+}
+
+.img-servico{
+	width: 300px;
+	height: 250px;
+	display: block;
+	margin: 10 auto;
+}
+/*Pagina Serviços - FIM*/
+
 /*Botão - Inicio*/
 .btn-cont{
 	margin-top: 20px;
-}
-
-.btn-cont button{
 	font-family: "Panton Black", verdana;
 	font-size: 16px;
+	letter-spacing: 2px;
 }
 
 /*Botão - Fim*/
@@ -156,6 +235,10 @@ a:active{
 	color: #fff;
 }
 
+#rodape p{
+	margin: 0px;
+}
+
 #rodape h2{
 	margin-top: 5px;
 	margin-bottom: 0px;
@@ -165,20 +248,6 @@ a:active{
 #rodape hr{
 	margin-top: 0px;
 }
-
-/*Formulário*/
-#rodape select{
-	width: 100px;
-	height: 25px;
-	color: #000;
-
-}
-
-#rodape option{
-	font-weight: 600;
-	color: #000;
-}
-/*Formulario - FIM*/
 
 /**************************************************************/
 /*CopyRight*/

@@ -6,10 +6,11 @@ Páginas
 	.Inicio
 	.Quem Somos
 	.Serviços
-	.Equipe
 	.Contato
 
-	.Estrutura pet pet
+Paginas Retiradas:
+	.Equipe
+	.Estrututa
 
 //*******************************************//
 Cores - Referência
