@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>Validação Formulário</title>
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="validacao_formulario.css" />		
+
+		<script language="javascript" src="validacao_formulario.js"></script>
+	</head>
+	<body>
+		<!--Cabeçalho-->
+		<div id="cabecalho">
+			<h1>Validação de Formulário</h1>
+		</div>
+
+		<!--Form-->
+		<div id="form">
+			<form id="contato">
+				<h2>Nome:</h2>
+				<input id="nome" type="text" placeholder="Digite seu nome" onfocus="addNome()" onblur="validaNome(document.getElementById('nome').value)"/>
+				<p id="p-nome"></p>
+
+				<h2>E-mail</h2>
+				<input id="email" type="email" placeholder="meu_email@mail.com" onfocus="addEmail()" onblur="validaEmail(document.getElementById('email').value)"/>
+				<p id="p-email"></p>
+
+				<h2>Assunto</h2>
+				<select>
+					<option value="duv">Dúvida</option>
+					<option value="sug">Sugestão</option>
+					<option value="pag">Pagamentos</option>
+				</select>
+
+				<h2>Mensagem</h2>
+				<textarea id="msg" placeholder="Digite sua mensagem aqui." onfocus="addMsg()" onblur="validaMsg(document.getElementById('msg').value)"></textarea>
+				<p id="p-msg"></p>
+
+				<br />
+
+				<button id="btn-enviar" onclick="validaCampos()">Enviar</button>
+				<button id="btn-clear" type="reset" onclick="addNome(), addEmail(), addMsg()">Limpar</button>
+				<br /><br />
+
+				<div class="enviado">
+					<p id='form-enviado'></p>
+				</div>
+			</form>
+		</div>
+
+		<!--Rodape-->
+		<div id="rodape">
+			teste
+		</div>
+	</body>
+</html>

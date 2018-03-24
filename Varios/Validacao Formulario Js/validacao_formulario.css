@@ -1,0 +1,85 @@
+/*******************************/
+/*GERAL*/
+body{
+	font-family: "panton", serif;
+}
+
+div{
+	margin-top: 0;
+	padding: 0;
+}
+
+h1{
+	margin: 0;
+}
+
+h2{
+	margin-bottom: 1px;
+	margin-top: 5px;
+}
+
+p{
+	margin: 0 0 15px 0;
+	font-size: 14px;
+	color: red;
+}
+
+/*******************************/
+/*CABECALHO*/
+#cabecalho{
+	background: linear-gradient(to right, #1E90FF, #EEE);
+	padding-left: 20px;
+}
+/*******************************/
+/*FORM*/
+#form{
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 550px;
+	background-color: #EEE;
+}
+
+#btn-enviar{
+	margin-left: 0;
+	background: lightgreen;
+}
+
+#btn-clear{
+	margin-left: 50px;
+	background: #FF6666;
+}
+
+.enviado{
+	width: 250px;
+	background: lightgreen;
+}
+
+.enviado p{
+	color: #fff;
+	text-align: center;	
+	font-size: 18px;
+}
+
+textarea{
+	width: 250px;
+	height: 100px;
+}
+
+input{
+	width: 250px;
+	height: 20px;
+}
+
+button{
+	width: 100px;
+	height: 35px;
+	font-weight: bold;
+	color: #fff;
+}
+/*******************************/
+/*RODAPE*/
+#rodape{
+	height: 50px;
+	background-color: #333;
+	color: #EEE;
+}
