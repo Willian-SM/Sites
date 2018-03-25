@@ -3,6 +3,7 @@ function validaNome(nome){
 	if (nome == '' || nome == null){
 		document.getElementById('nome').style.background = 'orange';
 		document.getElementById('p-nome').innerHTML = "O nome não pode estar vazio.";
+		//document.getElementById('msg').focus();
 		return 0;
 	}else{
 		return 1;
@@ -61,16 +62,22 @@ function validaCampos(){
 		validaMsg(document.getElementById('msg').value) == 1){					
 			
 		//document.forms['contato'].action = "#";
-		document.forms['contato'].submit();
+		//document.forms['contato'].submit();
 		document.getElementById('form-enviado').innerHTML = "Dados enviados com sucesso!";
+		document.getElementById('enviado').style.background = 'lightgreen';
 		limpaCampos();
 	}else{
-		alert("Revise os campos do formulário.");
+		document.getElementById('form-enviado').innerHTML = "Revise os campos e tente novamente."
+		document.getElementById('enviado').style.background = '#FF4500';
 	}
 }
 
 function limpaCampos(){
 	document.getElementById('nome').value = '';
-	document.getElementById('email').value = null;
+	document.getElementById('email').value = '';
 	document.getElementById('msg').value = '';
+}
+
+function limpaMsgEnvio(){
+	document.getElementById('form-enviado').innerHTML = '';
 }
